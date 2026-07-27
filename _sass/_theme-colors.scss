@@ -91,7 +91,7 @@ $_luminance-list: .0008 .001 .0011 .0013 .0015 .0017 .002 .0022 .0025 .0027 .003
 @function color-contrast(
     $background, $color-contrast-dark: $color-contrast-dark, $color-contrast-light: $color-contrast-light, $min-contrast-ratio: $min-contrast-ratio
     ) {
-    $foregrounds: $color-contrast-light, $color-contrast-dark, $white, $black;
+    $foregrounds: $color-contrast-light, $color-contrast-dark, $grey, $blue;
     $max-ratio: 0;
     $max-ratio-color: null;
   
